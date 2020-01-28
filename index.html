@@ -18,7 +18,7 @@
             <div class="nav_locations">
                 <div class="search_bar">
                     <i class="fas fa-bars" style="cursor: pointer;"></i>
-                    <i class="fas fa-search" style="margin-left: 20px; cursor: pointer;"></i>
+                    <i class="fas fa-search" style="padding-left: 20px; cursor: pointer;"></i>
                 </div>
                 <div class="space_cosmos">
                     <a class="space_cosmos_text"><span class="underline">SPACE & COSMOS</span></a>
@@ -35,10 +35,10 @@
     </nav>
 
     <header>
-        <div class="image-container">
-            <h1>Space Ripples Reveal Big Bang’s Smoking Gun</h1>
+        <h1 class="title">Space Ripples Reveal Big Bang’s Smoking Gun</h1>
+        <div class="image_container">
             <figure class="main_photo">
-                <img src="https://static01.nyt.com/images/2014/03/18/science/space/18cosmos/18cosmos-superJumbo.jpg?quality=90&auto=webp" alt="Alan Guth was one of the first physicists to hypothesize the existence of inflation, which explains how the universe expanded so uniformly and so quickly in the instant after the Big Bang 13.8 billion years ago.Credit...Rick Friedman for The New York Times">
+                <img class="photography" src="https://static01.nyt.com/images/2014/03/18/science/space/18cosmos/18cosmos-superJumbo.jpg?quality=90&auto=webp" alt="Alan Guth was one of the first physicists to hypothesize the existence of inflation, which explains how the universe expanded so uniformly and so quickly in the instant after the Big Bang 13.8 billion years ago.Credit...Rick Friedman for The New York Times">
                 <figcaption class="photo_desc">
                     <p class="photo_caption">Alan Guth was one of the first physicists to hypothesize the existence of inflation, which explains how the universe expanded so uniformly and so quickly in the instant after the Big Bang 13.8 billion years ago.</p>
                     <p class="photo_credits">Rick Friedman for The New York Times</p>
@@ -47,19 +47,21 @@
         </div>
 
         <div class="socials">
-            <p class="author">By
-                <a class="name-link" href="#">Dennis Overbye</a>
-            </p>
+            <div class="author_box">
+                <p class="author">By
+                    <a href="#">Dennis Overbye</a>
+                </p>
+            </div>
             <ul class="share">
                 <li class="date"><time class="time" datetime="2014-03-17T10:46:03-04:00">March 17, 2014</time></li>
                 <li class="social-icons">
                     <ul class="icons">
-                        <li><i class="fab fa-facebook-f"></i></li>
-                        <li><i class="fab fa-twitter"></i></li>
-                        <li><i class="fas fa-envelope"></i></li>
-                        <li><i class="fas fa-share"></i></li>
-                        <li><i class="far fa-bookmark"></i></li>
-                        <li><i class="far fa-comment-alt"></i></li>
+                        <li><button class="social_button"><i class="fab fa-facebook-f"></i></button></li>&nbsp;
+                        <li><button class="social_button"><i class="fab fa-twitter"></i></button></li>&nbsp;
+                        <li><button class="social_button"><i class="fas fa-envelope"></i></button></li>&nbsp;
+                        <li><button class="social_button"><i class="fas fa-share"></i></button></li>&nbsp;
+                        <li><button class="social_button"><i class="far fa-bookmark"></i></button></li>&nbsp;
+                        <li><button class="social_button"><i class="far fa-comment-alt"><span class="button_number">615</span></i></button></li>&nbsp;
                     </ul>
                 </li>
             </ul>
@@ -87,20 +89,20 @@
             <ul class="picks">
                 <li>
                     <a href="#">
-                        <img src="https://static01.nyt.com/images/2020/01/21/books/20bookrucker1/20bookrucker1-square640.jpg?quality=75&auto=webp&disable=upscale&width=350">
-                        <h3>A Meticulous Account of Trump’s Tenure Reads Like a Comic Horror Story</h3>
+                        <img align="left" src="https://static01.nyt.com/images/2020/01/21/books/20bookrucker1/20bookrucker1-square640.jpg?quality=75&auto=webp&disable=upscale&width=350">
+                        <h3 class="underline">A Meticulous Account of Trump’s Tenure Reads Like a Comic Horror Story</h3>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="https://static01.nyt.com/images/2020/01/19/books/review/19Giridharadas1/19Giridharadas1-square640-v2.jpg?quality=75&auto=webp&disable=upscale&width=350">
-                        <h3>Why Do Trump Supporters Support Trump?</h3>
+                        <img align="left" src="https://static01.nyt.com/images/2020/01/19/books/review/19Giridharadas1/19Giridharadas1-square640-v2.jpg?quality=75&auto=webp&disable=upscale&width=350">
+                        <h3 class="underline">Why Do Trump Supporters Support Trump?</h3>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="https://static01.nyt.com/images/2020/01/19/business/16WORKFRIEND-01/16WORKFRIEND-01-square640-v2.jpg?quality=75&auto=webp&disable=upscale&width=350">
-                        <h3>Must You Say Hello to Your Co-Workers?</h3>
+                        <img align="left" src="https://static01.nyt.com/images/2020/01/19/business/16WORKFRIEND-01/16WORKFRIEND-01-square640-v2.jpg?quality=75&auto=webp&disable=upscale&width=350">
+                        <h3 class="underline">Must You Say Hello to Your Co-Workers?</h3>
                     </a>
                 </li>
             </ul>
@@ -114,10 +116,8 @@
                 of inflation, proof, Dr. Kovac and his colleagues say, that Dr. Guth was correct.
             </p>
             <div class="create">
-                <hr>
                 <p>Unlock more free articles.</p>
-                <p><a href="#">Create an account or log in</a></p>
-                <hr>
+                <a href="#">Create an account or log in</a>
             </div>
             <p>
                 Inflation has been the workhorse of cosmology for 35 years, though many, including Dr. Guth, wondered whether it could ever be proved.
@@ -128,7 +128,9 @@
                 <br> Confirming inflation would mean that the universe we see, extending 14 billion light-years in space with its hundreds of billions of galaxies, is only an infinitesimal patch in a larger cosmos whose extent, architecture and fate are
                 unknowable. Moreover, beyond our own universe there might be an endless number of other universes bubbling into frothy eternity, like a pot of pasta water boiling over.
             </p>
+            <br>
             <p><strong>‘As Big as It Gets’</strong></p>
+            <br>
             <p>
                 In our own universe, it would serve as a window into the forces operating at energies forever beyond the reach of particle accelerators on Earth and yield new insights into gravity itself. Dr. Kovac’s ripples would be the first direct observation of gravitational
                 waves, which, according to Einstein’s theory of general relativity, should ruffle space-time.
@@ -425,14 +427,7 @@
         </ul>
     </aside>
 
-
-
-
-    </div>
-
-
-
-    <nav class="bottom_navigation">
+    <div class="bottom_navigation">
         <header>
             <div class="bottom_nav_heading">
 
@@ -534,38 +529,33 @@
                 <li>中文网</li>
             </ul>
               </div>
-    </nav>
+    </div>
 
 
+    <div class="listing">
+            <ul class="footer_list">
+                <li>© 2020 The New York Times Company</li>
+                        <li>NYT Co</li>
+                        <li>Contact Us</li>
+                        <li>Work with us</li>
+                        <li>Advertise</li>
+                        <li>T Brand Studio</li>
+                        <li>Your Ad Choices</li>
+                        <li>Privacy</li>
+                        <li>Terms of Service</li>
+                        <li>Terms of Sale</li>
+                        <li>Site Map</li>
+                        <li>Help</li>
+                        <li>Subscriptions</li>
+                        </ul>
+    </div>
 
     <footer class="footer">
+                            <p>Access More of the Times by Creating a Free Account or Logging In.</p>
+                            <p>Expand</p>
+                            <p><i class="fas fa-chevron-up"></i></p>
+                    </footer>
 
-                <ul class="footer_list">
-                    <li>© 2020 The New York Times Company</li>
-                            <li>NYT Co</li>
-                            <li>Contact Us</li>
-                            <li>Work with us</li>
-                            <li>Advertise</li>
-                            <li>T Brand Studio</li>
-                            <li>Your Ad Choices</li>
-                            <li>Privacy</li>
-                            <li>Terms of Service</li>
-                            <li>Terms of Sale</li>
-                            <li>Site Map</li>
-                            <li>Help</li>
-                            <li>Subscriptions</li>
-                            </ul>
-
-    </footer>
-
-    <div class="call_to_action">
-            <ul class="bottom_fixed_footer">
-            <p>Access More of the Times by Creating a Free Account or Logging In.</p>
-            <p>Expand</p>
-            <i class="fas fa-chevron-up"></i>
-            </ul>
-        </div>
-        -->
 </body>
 
 </html>

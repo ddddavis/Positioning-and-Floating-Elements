@@ -8,13 +8,27 @@ html {
     box-sizing: inherit;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 .navigation {
     position: fixed;
     width: 100%;
     top: 0;
-    bottom: 0;
+    left: 0;
     z-index: 200;
-    background-color: white;
+    background-color: #fff;
     border-bottom: none;
 }
 
@@ -45,7 +59,8 @@ html {
 .space_cosmos {
     display: block;
     position: absolute;
-    top: 10px;
+    left: 100px;
+    top: 12px;
     cursor: pointer;
 }
 
@@ -111,4 +126,212 @@ html {
     text-decoration: none;
     display: inline-block;
     margin-right: 10px;
+}
+
+.title {
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+header {
+    margin-top: 45px;
+    display: block;
+}
+
+.image_container {
+    position: relative;
+}
+
+.main_photo {
+    width: 1200px;
+    margin: 50px auto;
+}
+
+.photography {
+    width: 100%;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+.photo_desc {
+    width: 800px;
+    color: grey;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.photo_caption {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.photo_credits {
+    line-height: 20px;
+    font-size: 12px;
+    color: #888;
+}
+
+.socials {
+    color: black;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 18px;
+}
+
+.author_box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.author {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.share {
+    margin: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.date {
+    flex-shrink: 1;
+}
+
+.time {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.social_icons {
+    display: inline;
+    flex-shrink: 1;
+}
+
+.icons {
+    display: flex;
+    flex-shrink: 0;
+}
+
+.social_button {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: lightgrey;
+    border: 1px solid gray;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    padding: 7px;
+}
+
+.button_number {
+    position: absolute;
+    font-size: 6px;
+    color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+article {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.article {
+    width: 600px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.article p {
+    a font-size: 20px;
+    line-height: 35px;
+}
+
+aside {
+    float: right;
+    width: 210px;
+}
+
+aside h2 {
+    font-size: 14px;
+    margin-top: 150%;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 10px;
+}
+
+.picks li {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.picks img {
+    width: 100px;
+    height: auto;
+    padding: 12px;
+}
+
+.picks h3 {
+    font-size: 12px;
+    padding: 12px;
+    font-weight: 100;
+}
+
+.create {
+    text-align: center;
+    border-top: 0.5px solid lightgrey;
+    border-bottom: 0.5px solid lightgrey;
+    line-height: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.create p {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.create a {
+    font-size: 12px;
+    font-weight: 600;
+    color: #1da1f2;
+}
+
+.inflation_picture {
+    margin: 0 auto;
+}
+
+.inflation_picture img {
+    position: relative;
+    overflow: hidden;
+    width: 100;
+    display: block;
+}
+
+.inflation_paragraph1 {
+    position: absolute;
+    left: 0;
+    top: 550%;
+    text-align: center;
 }
