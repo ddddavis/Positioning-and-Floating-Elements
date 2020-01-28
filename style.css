@@ -1,0 +1,114 @@
+html {
+    box-sizing: border-box;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+.navigation {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    z-index: 200;
+    background-color: white;
+    border-bottom: none;
+}
+
+.nav_bar {
+    position: relative;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.nav_locations {
+    margin: 0 auto;
+    background: transparent;
+    border-bottom: 0;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    padding-right: 17px;
+    padding-left: 17px;
+    max-width: 1550px;
+}
+
+.search_bar {
+    display: flex;
+    position: absolute;
+    justify-content: space-around;
+    left: 10px;
+    top: 12px;
+}
+
+.space_cosmos {
+    display: block;
+    position: absolute;
+    top: 10px;
+    cursor: pointer;
+}
+
+.underline:hover {
+    text-decoration: underline;
+}
+
+.space_cosmos_text {
+    color: black;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.logo {
+    text-align: center;
+    padding-top: 0;
+}
+
+#nav_logo {
+    width: 200px;
+    height: 27px;
+    margin: 4px auto 0;
+}
+
+.sub_login {
+    display: flex;
+    position: absolute;
+    justify-content: space-around;
+    top: 4px;
+    right: 14px;
+}
+
+.subscribe {
+    background-color: #567b95;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 0.1px solid black;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.1px;
+    padding: 9px 12px 8px;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.login {
+    background-color: #567b95;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 0.1px solid black;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.1px;
+    padding: 9px 12px 8px;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px;
+}
