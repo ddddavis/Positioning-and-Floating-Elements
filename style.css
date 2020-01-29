@@ -353,8 +353,13 @@ aside h2 {
   color: #666;
 }
 
-.inflation_picture {
+.inflation_article{
   margin: 0 auto;
+  width: 945px;
+}
+
+.inflation_picture {
+  position: relative;
 }
 
 .inflation_picture img {
@@ -366,11 +371,10 @@ aside h2 {
 }
 
 .inflation_paragraph1 {
-  display: block;
   position: absolute;
-  left: 450px;
   width: 220px;
-  top: 477%;
+  top: 21%;
+  left: 0.004%;
   text-align: left;
   font-family: nyt-franklin,arial,helvetica,sans-serif;
   font-size: 12px;
@@ -380,7 +384,8 @@ aside h2 {
   position: absolute;
   left: 690px;
   width: 220px;
-  top: 477%;
+  top: 21%;
+  left: 26%;
   text-align: left;
   font-family: nyt-franklin,arial,helvetica,sans-serif;
   font-size: 12px;
@@ -388,9 +393,9 @@ aside h2 {
 
 .inflation_paragraph3{
   position: absolute;
-  left: 930px;
   width: 220px;
-  top: 477%;
+  top: 21%;
+  left: 50%;
   text-align: left;
   font-family: nyt-franklin,arial,helvetica,sans-serif;
   font-size: 12px;
@@ -398,9 +403,9 @@ aside h2 {
 
 .inflation_paragraph4{
   position: absolute;
-  left: 1170px;
   width: 220px;
-  top: 477%;
+  top: 21%;
+  left: 76%;
   text-align: left;
   font-family: nyt-franklin,arial,helvetica,sans-serif;
   font-size: 12px;
@@ -408,9 +413,9 @@ aside h2 {
 
 .inflation_paragraph5{
   position: absolute;
-  left: 450px;
   width: 220px;
-  top: 508%;
+  top: 61%;
+  left: 0.004%;
   text-align: left;
   font-family: nyt-franklin,arial,helvetica,sans-serif;
   font-size: 12px;
@@ -418,9 +423,9 @@ aside h2 {
 
 .inflation_paragraph6{
   position: absolute;
-  left: 690px;
   width: 220px;
-  top: 508%;
+  top: 61%;
+  left: 26%;
   text-align: left;
   font-family: nyt-franklin,arial,helvetica,sans-serif;
   font-size: 12px;
@@ -428,9 +433,9 @@ aside h2 {
 
 .inflation_paragraph7{
   position: absolute;
-  left: 930px;
   width: 220px;
-  top: 508%;
+  top: 61%;
+  left: 50%;
   text-align: left;
   font-family: nyt-franklin,arial,helvetica,sans-serif;
   font-size: 12px;
@@ -438,9 +443,9 @@ aside h2 {
 
 .inflation_paragraph8{
   position: absolute;
-  left: 1170px;
   width: 220px;
-  top: 508%;
+  top: 61%;
+  left: 76%;
   text-align: left;
   font-family: nyt-franklin,arial,helvetica,sans-serif;
   font-size: 12px;
