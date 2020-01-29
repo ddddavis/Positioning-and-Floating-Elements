@@ -207,34 +207,43 @@ header {
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
-  list-style: none;
 }
 
-.date {
+.date{
   flex-shrink: 1;
+  padding-right: 10px;
 }
 
 .time {
   display: inline-block;
   font-weight: 400;
   font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .social_icons {
   display: inline;
-  flex-shrink: 1;
+  flex-shrink: 0;
 }
 
 .icons {
   display: flex;
-  flex-shrink: 0;
+  padding: 0;
+  margin-bottom: 5px;
+}
+
+.buttons{
+  display: inline;
+  margin-right: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .social_button {
   position: relative;
   cursor: pointer;
   display: inline-block;
-  vertical-align: middle;
   background-color: lightgrey;
   border: 1px solid gray;
   border-radius: 100%;
@@ -475,6 +484,7 @@ aside h2 {
 }
 
 .footer_line{
-  margin-left: 129px;
+  position: relative;
+  margin-left: 5px;
 }
 
