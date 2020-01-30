@@ -14,7 +14,7 @@ It is the frontend clone for a New York Times Page. The page has an embedded vid
   
 ## Live Project  
 
-[New York Time Demo Page](https://rawcdn.githack.com/davisdambis/Positioning-and-Floating-Elements/7daeb29c6077e3270e11b802c957f8988ad9a4f2/index.html)  
+[New York Times Demo Page](https://rawcdn.githack.com/davisdambis/Positioning-and-Floating-Elements/7daeb29c6077e3270e11b802c957f8988ad9a4f2/index.html)  
 
 
 ## Gettingarticle Started  
