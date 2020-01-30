@@ -1,5 +1,4 @@
 # Positioning-and-Floating-Elements
-# Positioning-and-Floating-Elements
 
 
 New York Times Page
