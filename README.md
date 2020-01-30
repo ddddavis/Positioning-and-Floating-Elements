@@ -21,7 +21,7 @@ Built With
 
 
 ## Gettingarticle Started
-####You may use the following steps to get a local copy:
+You may use the following steps to get a local copy:
 
 Clone project to your local machine
 cd to the project directory
