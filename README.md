@@ -15,14 +15,13 @@ Built With
 
 
 
-# Live Project
+## Live Project
 
-https://rawcdn.githack.com/davisdambis/Positioning-and-Floating-Elements/ae929d7c5edc7b6551e76db85c619a5bd2a2b188/index.html
+[New York Time Demo Page](https://rawcdn.githack.com/davisdambis/Positioning-and-Floating-Elements/ae929d7c5edc7b6551e76db85c619a5bd2a2b188/index.html)
 
 
-
-## Getting Started
-You may use the following steps to get a local copy:
+## Gettingarticle Started
+####You may use the following steps to get a local copy:
 
 Clone project to your local machine
 cd to the project directory

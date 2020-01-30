@@ -78,6 +78,7 @@ img {
 .logo {
   text-align: center;
   padding-top: 0;
+  cursor:pointer;
 }
 
 #nav_logo {
@@ -262,7 +263,7 @@ header {
   transform: translate(-50%, -50%);
 }
 
-article {
+main {
   width: 1200px;
   margin: 0 auto;
 }
@@ -531,7 +532,7 @@ aside h2 {
   padding-bottom: 20px;
 }
 
-article figure {
+main figure {
   margin: 0 auto;
   width: 700px;
 }
