@@ -17,7 +17,7 @@ It is the frontend clone for a New York Times Page. The page has an embedded vid
 [New York Times Demo Page](https://rawcdn.githack.com/davisdambis/Positioning-and-Floating-Elements/7daeb29c6077e3270e11b802c957f8988ad9a4f2/index.html)  
 
 
-## Gettingarticle Started  
+## Getting Article Started  
 You may use the following steps to get a local copy:
   
 Clone project to your local machine  
